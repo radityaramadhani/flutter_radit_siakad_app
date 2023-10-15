@@ -55,7 +55,8 @@ class _ProfilePageState extends State<ProfilePage> {
                       borderRadius:
                           const BorderRadius.all(Radius.circular(50.0)),
                       child: Image.network(
-                        'https://avatars.githubusercontent.com/u/534678?v=4',
+                        // 'https://avatars.githubusercontent.com/u/534678?v=4',
+                        'assets/images/user_profile.png',
                         width: 72.0,
                         height: 72.0,
                         fit: BoxFit.cover,
@@ -83,7 +84,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         const Text(
-                          "Saiful Bahri",
+                          "Raditya Ramadhani",
                           style: TextStyle(
                             fontWeight: FontWeight.w700,
                             color: ColorName.primary,
